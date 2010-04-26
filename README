@@ -1,0 +1,42 @@
+Thread-Actor
+
+Thread::Actor is a user friendly and object-oriented wrapper around L<threads::lite>. It was created because threads::lite has some powerful but confusing behavior, in particular around the start-up function. Thread::Actor is meant to be inherited from, though it also exports functions.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Build.PL
+	./Build
+	./Build test
+	./Build install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc Thread::Actor
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Thread-Actor
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/Thread-Actor
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/Thread-Actor
+
+    Search CPAN
+        http://search.cpan.org/dist/Thread-Actor
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2010 Leon Timmermans
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
